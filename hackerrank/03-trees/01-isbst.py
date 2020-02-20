@@ -1,3 +1,10 @@
+ # Tree is a hierarchical data structure. Main uses of trees include maintaining hierarchical data, 
+ # providing moderate access and insert/delete operations. 
+ # Binary trees are special cases of tree where every node has at most two children.
+
+ # Maximum number of nodes in level L (root = level 1): 2^(L-1)
+ # Maximum number of nodes in a binary tree of heigh H (root = height 1): 2^H - 1
+
 class Node:
     def __init__(self, data):
         self.data = data
