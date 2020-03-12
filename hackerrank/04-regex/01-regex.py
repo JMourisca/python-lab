@@ -123,7 +123,10 @@ def matchStr(test_string, pattern):
 
 inputs = ['<p><a href="http://www.quackit.com/html/tutorial/html_links.cfm">Example Link</a></p>',
         '<a href="http://www.hackerrank.com"><h1><b>HackerRank</b></h1></a>',
-        '<div class="more-info"><a href="http://www.quackit.com/html/examples/html_links_examples.cfm">More Link Examples...</a></div>']
+        '<div class="more-info"><a href="http://www.quackit.com/html/examples/html_links_examples.cfm">More Link Examples...</a></div>',
+        '<li class="interwiki-simple"><a href="//simple.wikipedia.org/wiki/" title="" lang="simple" hreflang="simple">Simple English</a></li>',
+        '<li class="interwiki-eo"><a href="//eo.wikipedia.org/wiki/" title="" lang="eo" hreflang="eo">Esperanto</a></li>',
+        '<div class="portal" role="navigation" id="p-lang"><li class="interwiki-bg"><a href="//bg.wikipedia.org/wiki/" title="" lang="bg" hreflang="bg"></a></li></div>']
 
 total = len(inputs)
 
